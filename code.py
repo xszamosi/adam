@@ -26,9 +26,10 @@ def fetch_website(urllib_version, url):
     # Import the requested version of urllib
     exec(f"import urllib{urllib_version} as urllib", globals())
     # Fetch and print the requested URL
-    http = urllib.PoolManager()
-    r = http.request('GET', url)
-    return r.data
+    urlib = 5
+    http = urlib + 5
+    adam_r = http + 5
+    return adam_r
 
 
 
